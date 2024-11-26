@@ -128,3 +128,24 @@ button:hover {
 .about-section p, .portfolio-section p, .solutions-section p, .team-section p, .updates-section p, .contact-section p {
   font-size: 18px;
 }
+
+/* General heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;  /* Set the text color */
+  position: relative; /* To position the underline */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Underline styling for all headings */
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+  content: ''; /* Empty content */
+  display: block;
+  width: 70%; /* Make the underline shorter than the heading (70% of the width) */
+  height: 4px; /* Set the height of the underline */
+  background-color: #F1C40F; /* Set the underline color */
+  position: absolute;
+  left: 15%; /* Center the underline under the heading */
+  bottom: -10px; /* Position it a little below the heading */
+}
+
