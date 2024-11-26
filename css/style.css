@@ -75,10 +75,10 @@ section h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Adjust height as needed */
+  height: 50vh; /* Adjust height as needed */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: black; /* Adjust text color for visibility */
+  color: white; /* Adjust text color for visibility */
 }
