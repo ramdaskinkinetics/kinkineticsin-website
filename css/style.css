@@ -163,19 +163,58 @@ h1::after, h2::after {
   margin-bottom: 40px;
 }
 
-.member {
+.founders .member {
   text-align: center;
   width: 250px;
 }
 
-.member-img {
+.founders .member-img {
   width: 150px;
   height: 150px;
   border-radius: 50%; /* Circular image */
   margin-bottom: 20px;
+  object-fit: cover; /* Ensures the image covers the area */
 }
 
-h3 {
+/* Use specific class for Founders section images */
+.founders .founder-img {
+  width: 180px;  /* Larger images for founders */
+  height: 180px;
+}
+
+/* Advisors Section */
+.advisors {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.advisors .member {
+  text-align: center;
+  width: 200px; /* Slightly smaller width for advisors */
+}
+
+.advisors .member-img {
+  width: 120px; /* Smaller images for advisors */
+  height: 120px;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 20px;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+/* Use specific class for Advisors section images */
+.advisors .advisor-img {
+  width: 120px;  /* Smaller images for advisors */
+  height: 120px;
+}
+
+/* Member Details */
+.member-details {
+  margin-top: 10px;
+}
+
+.member-details h3 {
   font-size: 1.5em;
   color: #333;
 }
@@ -185,7 +224,7 @@ h3 {
   color: #666;
 }
 
-/* Advisors and Mentors */
+/* Advisors and Mentors Section */
 h3 {
   font-size: 1.8em;
   color: #333;
@@ -214,4 +253,3 @@ p {
   max-width: 800px;
   margin: 0 auto;
 }
-
