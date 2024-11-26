@@ -50,8 +50,8 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
-  padding: 20px 10px;
+  min-height: 25vh;
+  padding: 40px 20px;
   text-align: center; /* Center-align headings and titles */
 }
 
