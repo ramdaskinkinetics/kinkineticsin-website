@@ -72,6 +72,7 @@ section h2 {
 }
 /* Home Section Styling */
 .home-section {
+  background-image: url("../assets/images/homepage.png");
   position: relative; /* Allows positioning of content relative to this container */
   text-align: center; /* Center-align text */
   color: white; /* White text for content */
