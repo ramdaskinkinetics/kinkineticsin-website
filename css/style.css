@@ -212,6 +212,7 @@ h1::after, h2::after {
 /* Member Details */
 .member-details {
   margin-top: 10px;
+  text-align: center; /* Ensure the text is centered */
 }
 
 .member-details h3 {
