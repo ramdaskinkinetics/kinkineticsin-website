@@ -39,7 +39,7 @@ nav a:hover {
 
 /* Home Section */
 .home-section {
-  background-image: url('homepage.png');
+  background-image: url('assets/images/homepage.png');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -82,124 +82,25 @@ nav a:hover {
   background-color: #6E6DFF; /* Bright Purple */
 }
 
-/* About Section */
-.about-section {
-  padding: 60px 20px;
-  text-align: center;
-}
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
 
-.about-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
+  .home-section {
+    padding: 50px 20px;
+  }
 
-.about-section p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
-  margin: 20px auto;
-  max-width: 800px;
-}
+  .home-section h1 {
+    font-size: 32px;
+  }
 
-/* Portfolio Section */
-.portfolio-section {
-  padding: 60px 20px;
-  text-align: center;
-}
+  .home-section h2 {
+    font-size: 20px;
+  }
 
-.portfolio-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.portfolio-item h3 {
-  color: #1A1F5B; /* Royal Blue */
-}
-
-.portfolio-item p {
-  color: #D0D0E0; /* Pale Silver */
-  text-align: justify;
-}
-
-/* Solutions Section */
-.solutions-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.solutions-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.solutions-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.solutions-section li {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-/* Team Section */
-.team-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.team-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.team-section h3 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 24px;
-}
-
-.team-section p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
-}
-
-/* Updates Section */
-.updates-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.updates-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.update-item h3 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 24px;
-}
-
-.update-item p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
-}
-
-/* Contact Section */
-.contact-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.contact-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.contact-section p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
+  .home-section p {
+    font-size: 16px;
+  }
 }
