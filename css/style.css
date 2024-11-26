@@ -1,4 +1,3 @@
-/*style.css*/
 /* General Reset */
 * {
   margin: 0;
@@ -18,13 +17,14 @@ body {
 /* Title and Paragraph Styling */
 h1, h2, h3, h4, h5, h6 {
   color: #2E4053;  /* Heading color */
+  text-align: center; /* Center headings */
 }
 
 p {
   color: black;  /* Paragraph color */
   font-size: 16px;  /* Adjust font size */
   text-align: justify;  /* Justify alignment */
-  line-height: 1.8;  /* Add line-height for better readability */
+  line-height: 1.8;  /* Line height for readability */
   margin-bottom: 20px;  /* Space between paragraphs */
 }
 
@@ -32,80 +32,41 @@ p {
 section {
   max-width: 900px;  /* Maximum width for readability */
   margin: 0 auto;  /* Center the content */
-  padding: 0 15px;  /* Add some padding for better spacing */
+  padding: 0 15px;  /* Add padding for spacing */
 }
 
-/* About Section */
-.about-section {
-  background-color: #BFC9CA;
-  padding: 40px;
+/* Navigation Styling */
+nav {
+  background-color: #2E4053;  /* Dark color for nav background */
+  padding: 10px;
 }
 
-.about-section h2 {
-  color: #2E4053;
-}
-
-/* Contact Section */
-.contact-section {
-  background-color: #BFC9CA;
-  padding: 40px;
-}
-
-.contact-section h2 {
-  color: #2E4053;
-}
-
-/* Home Section */
-.home-section {
-  background-color: #BFC9CA;
-  padding: 40px;
+nav ul {
+  list-style-type: none;
   text-align: center;
 }
 
-.home-section h1, .home-section h2 {
-  color: #2E4053;
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-/* Portfolio Section */
-.portfolio-section {
+nav ul li a {
+  color: white; /* White color for text */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Section Styling */
+section {
   background-color: #BFC9CA;
   padding: 40px;
 }
 
-.portfolio-section h2, .portfolio-section h3 {
-  color: #2E4053;
-}
-
-/* Solutions Section */
-.solutions-section {
-  background-color: #BFC9CA;
-  padding: 40px;
-}
-
-.solutions-section h2, .solutions-section h3 {
-  color: #2E4053;
-}
-
-/* Team Section */
-.team-section {
-  background-color: #BFC9CA;
-  padding: 40px;
-}
-
-.team-section h2, .team-section h3 {
-  color: #2E4053;
-}
-
-/* Updates Section */
-.updates-section {
-  background-color: #BFC9CA;
-  padding: 40px;
-}
-
-.updates-section h2, .updates-section h3 {
-  color: #2E4053;
-}
-
-.update-item h3 {
+section h2 {
   color: #2E4053;
 }
