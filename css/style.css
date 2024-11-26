@@ -182,6 +182,41 @@ h1::after, h2::after {
   height: 180px;
 }
 
+/* Team Section Styles */
+.team-section {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Founders Section */
+.founders {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.founders .member {
+  text-align: center;
+  width: 250px;
+  margin-bottom: 40px; /* Space for proper alignment */
+}
+
+.founders .member-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 20px;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+/* Larger images for Founders */
+.founders .founder-img {
+  width: 180px;  /* Larger images for founders */
+  height: 180px;
+}
+
 /* Advisors Section */
 .advisors {
   display: flex;
@@ -193,6 +228,7 @@ h1::after, h2::after {
 .advisors .member {
   text-align: center;
   width: 200px; /* Slightly smaller width for advisors */
+  margin-bottom: 20px; /* Space for proper alignment */
 }
 
 .advisors .member-img {
