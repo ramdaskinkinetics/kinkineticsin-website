@@ -68,7 +68,7 @@ section {
 }
 
 section h2 {
-  color: #BFC9CA;
+  color: #2E4053;
 }
 /* Home Section Styling */
 .home-section {
@@ -97,15 +97,21 @@ section h2 {
 }
 
 h1, h2 {
+  color: #BFC9CA; /* White text for content */
+
   margin: 20px 0; /* Add spacing between titles */
 }
 
 h1 {
+  color: #BFC9CA; /* White text for content */
+
   font-size: 3em; /* Adjust font size */
   font-weight: bold;
 }
 
 h2 {
+  color: #BFC9CA; /* White text for content */
+
   font-size: 1.5em; /* Adjust subtitle font size */
   font-weight: 500;
 }
