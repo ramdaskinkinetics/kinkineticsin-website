@@ -68,7 +68,7 @@ section {
 }
 
 section h2 {
-  color: #2E4053;
+  color: #BFC9CA;
 }
 /* Home Section Styling */
 .home-section {
@@ -80,14 +80,14 @@ section h2 {
 }
 
 .background-image {
-  width: auto; /* Full width of the window */
+  width: 100%; /* Full width of the window */
   height: auto; /* Maintain aspect ratio */
   max-height: 100vh; /* Prevent the image from exceeding the viewport height */
   object-fit: cover; /* Ensures the image scales nicely */
   position: absolute; /* Position image at the back */
   top: 0;
   left: 0;
-  z-index: 0; /* Send image behind the content */
+  z-index: -1; /* Send image behind the content */
 }
 
 .home-content {
