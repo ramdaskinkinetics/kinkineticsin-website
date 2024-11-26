@@ -53,15 +53,16 @@ nav ul li a:hover {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
   position: relative; /* For proper layering */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .home-content {
-  position: absolute; /* Overlay the content on the image */
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for centering */
-  text-align: center;
+  text-align: center; /* Center-align text */
   color: white; /* White text for visibility */
+  max-width: 900px; /* Limit content width for readability */
+  padding: 20px; /* Add padding around the content */
 }
 
 h1 {
@@ -73,6 +74,12 @@ h1 {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+
+p {
+  text-align: justify; /* Justify alignment for the paragraph */
+  line-height: 1.8; /* Increase line height for readability */
+  margin-bottom: 20px; /* Add spacing between paragraphs */
 }
 
 button {
