@@ -1,6 +1,5 @@
 // JavaScript to dynamically load content
 document.addEventListener("DOMContentLoaded", function() {
-  
   // Function to load content into a section
   function loadContent(section, fileName) {
       fetch(`content/${fileName}.html`)
@@ -17,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
   loadContent("portfolio", "portfolio");
   loadContent("solutions", "solutions");
   loadContent("team", "team");
-  loadContent("updates", "updates"); // Add Updates section loading
+  loadContent("updates", "updates");
   loadContent("contact", "contact");
-
 });
