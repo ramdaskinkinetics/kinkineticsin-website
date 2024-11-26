@@ -79,6 +79,7 @@ section h2 {
 }
 
 .background-image {
+  background-image: url("../assets/images/homepage.png");
   width: 100%; /* Full width of the window */
   height: auto; /* Maintain aspect ratio */
   max-height: 100vh; /* Prevent the image from exceeding the viewport height */
