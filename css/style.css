@@ -75,7 +75,7 @@ section h2 {
   background-image: url("../assets/images/homepage.png");
   position: relative; /* Allows positioning of content relative to this container */
   text-align: center; /* Center-align text */
-  color: white; /* White text for content */
+  color: #BFC9CA; /* White text for content */
   padding: 60px 20px; /* Add padding at the top and bottom */
 }
 
