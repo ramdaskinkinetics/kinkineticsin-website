@@ -1,71 +1,78 @@
-/* Reset and base styles */
-body, h1, h2, h3, p, ul, li, a {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+/* General Settings */
 body {
-    line-height: 1.6;
-    color: #333;
-}
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
-}
-
-/* Header */
-header {
-    background: #333;
-    color: white;
-    padding: 10px 0;
-}
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header nav a {
-    color: white;
-    margin-left: 15px;
-    text-decoration: none;
-}
-
-/* Hero Section */
-#hero {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #1e1e2e;
+  }
+  
+  .section {
+    padding: 50px;
     text-align: center;
-    padding: 50px 20px;
-    background: #f4f4f4;
-}
-#hero h2 {
-    margin-bottom: 10px;
-    color: #0078d7;
-}
-#hero .cta {
-    display: inline-block;
+  }
+  
+  h1, h2 {
+    color: #FFD700; /* Gold */
+  }
+  
+  p, li {
+    color: #b0c4de; /* Light Steel Blue */
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #101010; /* Near black */
     padding: 10px 20px;
-    color: white;
-    background: #0078d7;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Sections */
-section {
-    padding: 40px 20px;
-}
-#features ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
     list-style: none;
-}
-#features ul li {
-    margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  .btn {
+    text-decoration: none;
+    background-color: #FFD700;
+    color: #101010;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #ffcc00;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #101010;
     padding: 20px;
-    background: #333;
-    color: white;
-}
-
+    text-align: center;
+    color: #b0c4de;
+    margin-top: 20px;
+  }
+  
