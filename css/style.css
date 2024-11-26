@@ -53,6 +53,7 @@ section {
   min-height: 100vh;
   padding: 40px 20px;
   text-align: center; /* Center-align headings and titles */
+  margin-bottom: 20px; /* Adjust this value to control the gap between sections */
 }
 
 section p {
