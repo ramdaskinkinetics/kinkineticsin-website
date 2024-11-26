@@ -72,7 +72,7 @@ section h2 {
 }
 /* Home Section Styling */
 .home-section {
-  background-image: url("../assets/images/homepage.png");
+ /* background-image: url("../assets/images/homepage.png");*/
   position: relative; /* Allows positioning of content relative to this container */
   text-align: center; /* Center-align text */
   color: white; /* White text for content */
@@ -80,7 +80,7 @@ section h2 {
 }
 
 .background-image {
-  /*background-image: url("../assets/images/homepage.png");*/
+  background-image: url("../assets/images/homepage.png");
   width: 100%; /* Full width of the window */
   height: auto; /* Maintain aspect ratio */
   max-height: 100vh; /* Prevent the image from exceeding the viewport height */
