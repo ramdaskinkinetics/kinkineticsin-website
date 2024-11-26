@@ -2,10 +2,13 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Function to load content into a section
   function loadContent(section, fileName) {
-    fetch(`content/${fileName}.html`)
+    // Debug: Log file being fetched
+    console.log(`Fetching content for: ${fileName}.html`);
+
+    fetch(`content/${fileName}.html`) // Ensure this path is correct
       .then(response => {
         if (!response.ok) {
-          throw new Error(`Failed to load ${fileName}.html`);
+          throw new Error(`Failed to load ${fileName}.html, Status: ${response.status}`);
         }
         return response.text();
       })
@@ -13,8 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById(section).innerHTML = data;
       })
       .catch(error => {
+        // Log errors to console for debugging
         console.error("Error loading content:", error);
-        document.getElementById(section).innerHTML = `<p>Sorry, the content could not be loaded.</p>`;
+        document.getElementById(section).innerHTML = `<p>Sorry, the content could not be loaded. Please try again later.</p>`;
       });
   }
 
