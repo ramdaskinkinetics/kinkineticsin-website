@@ -70,3 +70,15 @@ section {
 section h2 {
   color: #2E4053;
 }
+.home-section {
+  background-image: url("../assets/images/homepage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black; /* Adjust text color for visibility */
+}
