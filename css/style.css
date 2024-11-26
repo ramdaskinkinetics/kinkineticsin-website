@@ -80,14 +80,14 @@ section h2 {
 }
 
 .background-image {
-  width: 200%; /* Full width of the window */
+  width: auto; /* Full width of the window */
   height: auto; /* Maintain aspect ratio */
-  max-height: 50vh; /* Prevent the image from exceeding the viewport height */
+  max-height: 100vh; /* Prevent the image from exceeding the viewport height */
   object-fit: cover; /* Ensures the image scales nicely */
   position: absolute; /* Position image at the back */
   top: 0;
   left: 0;
-  z-index: -1; /* Send image behind the content */
+  z-index: 0; /* Send image behind the content */
 }
 
 .home-content {
