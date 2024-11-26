@@ -80,9 +80,9 @@ section h2 {
 }
 
 .background-image {
-  width: 100%; /* Full width of the window */
+  width: 200%; /* Full width of the window */
   height: auto; /* Maintain aspect ratio */
-  max-height: 100vh; /* Prevent the image from exceeding the viewport height */
+  max-height: 50vh; /* Prevent the image from exceeding the viewport height */
   object-fit: cover; /* Ensures the image scales nicely */
   position: absolute; /* Position image at the back */
   top: 0;
