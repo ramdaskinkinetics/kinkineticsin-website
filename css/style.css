@@ -1,205 +1,99 @@
-/* General Body Style */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #0F0F2C; /* Midnight Navy */
-  color: #D0D0E0; /* Pale Silver */
+  font-family: Arial, sans-serif;
+  background-color: #BFC9CA;  /* Background color */
+  color: black;  /* Text color */
+  line-height: 1.6;
+  padding: 20px;
 }
 
-/* Navigation Styles */
-nav {
-  background-color: #1A1F5B; /* Royal Blue */
-  padding: 10px;
+/* Title and Paragraph Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #2E4053;  /* Heading color */
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-nav li {
-  margin: 0 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #F8F1E5; /* Warm Ivory */
-  font-weight: 500;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-nav a:hover {
-  color: #6E6DFF; /* Bright Purple */
-}
-
-/* Home Section */
-.home-section {
-  background-image: url('../assets/images/homepage.png');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 20px;
-  text-align: center;
-  color: #F8F1E5; /* Warm Ivory */
-  position: relative;
-  z-index: 1;
-}
-
-.home-section h1 {
-  font-size: 48px;
-  color: #F8F1E5; /* Warm Ivory */
-}
-
-.home-section h2 {
-  font-size: 24px;
-  color: #C7C9D2; /* Lavender Gray */
-}
-
-.home-section p {
-  font-size: 18px;
-  color: #D0D0E0; /* Pale Silver */
-  text-align: justify;
-  margin: 20px auto;
-  max-width: 600px;
-}
-
-.home-section button {
-  background-color: #4C4A92; /* Violet Purple */
-  color: #F8F1E5; /* Warm Ivory */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.home-section button:hover {
-  background-color: #6E6DFF; /* Bright Purple */
+p {
+  color: black;  /* Paragraph color */
 }
 
 /* About Section */
 .about-section {
-  padding: 60px 20px;
-  text-align: center;
+  background-color: #BFC9CA;
+  padding: 40px;
 }
 
 .about-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.about-section p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
-  margin: 20px auto;
-  max-width: 800px;
-}
-
-/* Portfolio Section */
-.portfolio-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.portfolio-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.portfolio-item h3 {
-  color: #1A1F5B; /* Royal Blue */
-}
-
-.portfolio-item p {
-  color: #D0D0E0; /* Pale Silver */
-  text-align: justify;
-}
-
-/* Solutions Section */
-.solutions-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.solutions-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.solutions-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.solutions-section li {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-/* Team Section */
-.team-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.team-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.team-section h3 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 24px;
-}
-
-.team-section p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
-}
-
-/* Updates Section */
-.updates-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.updates-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
-}
-
-.update-item h3 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 24px;
-}
-
-.update-item p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
+  color: #2E4053;
 }
 
 /* Contact Section */
 .contact-section {
-  padding: 60px 20px;
-  text-align: center;
+  background-color: #BFC9CA;
+  padding: 40px;
 }
 
 .contact-section h2 {
-  color: #1A1F5B; /* Royal Blue */
-  font-size: 32px;
+  color: #2E4053;
 }
 
-.contact-section p {
-  color: #D0D0E0; /* Pale Silver */
-  font-size: 18px;
-  text-align: justify;
+/* Home Section */
+.home-section {
+  background-color: #BFC9CA;
+  padding: 40px;
+  text-align: center;
+}
+
+.home-section h1, .home-section h2 {
+  color: #2E4053;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  background-color: #BFC9CA;
+  padding: 40px;
+}
+
+.portfolio-section h2, .portfolio-section h3 {
+  color: #2E4053;
+}
+
+/* Solutions Section */
+.solutions-section {
+  background-color: #BFC9CA;
+  padding: 40px;
+}
+
+.solutions-section h2, .solutions-section h3 {
+  color: #2E4053;
+}
+
+/* Team Section */
+.team-section {
+  background-color: #BFC9CA;
+  padding: 40px;
+}
+
+.team-section h2, .team-section h3 {
+  color: #2E4053;
+}
+
+/* Updates Section */
+.updates-section {
+  background-color: #BFC9CA;
+  padding: 40px;
+}
+
+.updates-section h2, .updates-section h3 {
+  color: #2E4053;
+}
+
+.update-item h3 {
+  color: #2E4053;
 }
